@@ -86,7 +86,7 @@ class simpleCalender:
         if year != -1 and month != -1 and date != -1:
             self.displaydob.config(text = f'{month} {date}, {year}')
         else:
-            self.displaydob.config(text = "Date is invalid.")
+            self.displaydob.config(text = "Date is not valid.")
 
 def CalenderApp():
     root = tk.Tk()
